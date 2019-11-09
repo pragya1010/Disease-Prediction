@@ -5,6 +5,6 @@ The problem of error prone diagnosis could be solved using machine learning algo
 We are implementing Neural networks using Keras, Random Forest Model and Image Analysis using OpenCV. 
 
 To use the package:
-pip install requirements.txt
-Run api.py
+1. pip install requirements.txt
+2. Run api.py
 The code will navigate to Index.html where u can login as a new user and use the application
