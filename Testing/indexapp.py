@@ -4,8 +4,8 @@ from flask import request, redirect
 from flask_bootstrap import Bootstrap
 
 
-app = Flask(__name__, template_folder='front-end/',
-            static_folder='front-end/css')
+app = Flask(__name__, template_folder='front-end_old/',
+            static_folder='front-end_old/css')
 Bootstrap(app)
 
 @app.route('/')
