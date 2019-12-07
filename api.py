@@ -32,6 +32,7 @@ try:
 except:
     pass
 
+# Api image is the main function that interacts with the ML models
 
 @app.route('/prediction', methods=['POST'])
 def api_image():
